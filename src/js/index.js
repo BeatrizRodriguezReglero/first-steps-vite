@@ -1,3 +1,4 @@
-import { sayHello } from './demo';
+import { addCounter } from './counter-functions';
+import { addCounterElement } from './dom';
 
-sayHello();
+addCounterElement.addEventListener('click', addCounter);
